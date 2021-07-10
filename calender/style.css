@@ -26,9 +26,7 @@ body{
     grid-template-rows: 3em repeat(6, 70px );
     grid-gap: 5px;
 }
-
 .date, .day{
-
     background-color: skyblue;
     border: 1px solid black;
     border-radius: 8px;
