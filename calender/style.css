@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: chartreuse;
+    border-radius: 10px;
+    height: 580px;
+    width: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calender{
+    margin-top:10px;
+    display: grid;
+    grid-template-columns: repeat(7, 110px);
+    grid-template-rows: 3em repeat(6, 70px );
+    grid-gap: 5px;
+}
+
+.date, .day{
+
+    background-color: skyblue;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.other-month{
+    background-color: lightgray;
+}
