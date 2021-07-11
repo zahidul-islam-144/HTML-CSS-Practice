@@ -44,16 +44,18 @@ img {
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  
-    header h1{
+  header h1 {
     margin-left: 0px;
     margin-bottom: 25px;
-    text-align: center 
-    }
-    
-    .gallery {
-        width: 254px;
-    }
+    text-align: center;
+  }
+
+  .gallery {
+    width: 254px;
+  }
+
+  .photo-frame:hover img {
+    transform: scale(1.5);
+    transition: transform 2s ease-in-out;
+  }
 }
-
-
