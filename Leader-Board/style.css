@@ -49,7 +49,7 @@ main {
 .player img {
   height: 56px;
   width: 56px;
-  padding-right: 16px;
+  margin-right: 16px;
 }
 hr {
   color: #d1d1d1;
@@ -86,3 +86,7 @@ article {
   font-size: 16px;
   color: #562eff;
 }
+
+/*---------------------
+    latest course part
+----------------------*/
